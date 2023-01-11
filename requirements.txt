@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.1
+ecommercetools==0.42.3
+numpy==1.22.4
+pandas==1.4.2
+requests==2.27.1
+scikit_learn==1.2.0
+streamlit==1.10.0
