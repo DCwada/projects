@@ -9,7 +9,7 @@ df = pd.read_csv('twitter_training.csv', index_col=0)
 df = sklearn.utils.shuffle(df)
 df = df.head(2500)
 y_values = {"Positive": 1, "Negative": 2, "Neutral": 3, "Irrelevant": 0}
-df.rename(columns={"Positive": "Results", "im getting on borderlands and i will murder you all ,": "Words"}, inplace=True)
+df.rename(columns={"Positive": "Results", "im getting on borderlands,": "Words"}, inplace=True)
 df["Results"] = df["Results"].map(y_values)
 df["Words"] = df["Words"].astype(str)
 cls = TfidfVectorizer()
