@@ -1,6 +1,6 @@
 import streamlit as st
 from ecommercetools import seo
-st.markdown("<h1 style='text-align: center; color: gray;'>SEOptimizer</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>SEOptimizer</h1>", unsafe_allow_html=True)
 value = st.selectbox('Navigation', ['Key word generator', 'Check webpage vital'])
 if value == 'Key word generator':
     x = st.text_input("Input any word to generate search engine ideas")
